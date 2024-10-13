@@ -1,6 +1,8 @@
 module github.com/livekit/livekit-server
 
-go 1.22.7
+go 1.23
+
+toolchain go1.23.2
 
 require (
 	github.com/bep/debounce v1.2.1
@@ -23,7 +25,7 @@ require (
 	github.com/livekit/psrpc v0.6.1-0.20240924010758-9f0a4268a3b9
 	github.com/mackerelio/go-osstat v0.2.5
 	github.com/magefile/mage v1.15.0
-	github.com/maxbrunsfeld/counterfeiter/v6 v6.9.0
+	github.com/maxbrunsfeld/counterfeiter/v6 v6.10.0
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/ory/dockertest/v3 v3.11.0
@@ -44,15 +46,15 @@ require (
 	github.com/stretchr/testify v1.9.0
 	github.com/thoas/go-funk v0.9.3
 	github.com/twitchtv/twirp v8.1.3+incompatible
-	github.com/ua-parser/uap-go v0.0.0-20240611065828-3a4781585db6
-	github.com/urfave/cli/v2 v2.27.4
+	github.com/ua-parser/uap-go v0.0.0-20241012191800-bbb40edc15aa
+	github.com/urfave/cli/v2 v2.27.5
 	github.com/urfave/negroni/v3 v3.1.1
 	go.uber.org/atomic v1.11.0
 	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.27.0
-	golang.org/x/exp v0.0.0-20241004190924-225e2abe05e6
+	golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c
 	golang.org/x/sync v0.8.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.35.1
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -70,7 +72,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/containerd/continuity v0.4.3 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/docker/cli v26.1.4+incompatible // indirect
